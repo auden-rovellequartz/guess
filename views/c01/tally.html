@@ -1,0 +1,14 @@
+{{extend "layout.html"}}
+<br><br><br>
+you took {{= session.number_of_attempts}} attempts at guessing a randome number from 1 to 10.
+<br><br><br>
+{{= session.correct_attempts}} of your attempts were correct.
+<br><br><br>
+Your success percentage is: {{= session.percent_correct}}%
+<br><br><br>
+{{= home}}
+<br><br><br>
+{{= tally}}
+<br><br><br>
+{{= clear}}
+<br><br><br>
